@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.top-bar{
+    text-align: center;
+    background-color: 474747;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+}
+.container{
+    display: flex;
+    align-content: center;
+    justify-content:center ;
+    color: white;
+}
+.phone{
+    text-align: center;
+    margin-right: 10px;
+}
+.phone p{
+    margin-left: 5px;
+}
+.email{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.icons i{
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+    background-color:rgba(249, 249, 247, 0.12);
+    padding: 10px;
+    border-radius: 50%;  
+}
+

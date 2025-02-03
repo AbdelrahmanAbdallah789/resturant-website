@@ -1,0 +1,137 @@
+h2{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    color: 2C2F24;
+}
+.signup-form{
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: center;
+}
+.userName-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.userName-form label{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.userName-form input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    width: 400px;
+    height: 50px;
+}
+.userPhone-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.userPhone-form label{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.userPhone-form input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    width: 400px;
+    height: 50px;
+}
+.email-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.email-form label{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.email-form input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    width: 400px;
+    height: 50px;
+}
+.password-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.password-form label{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.password-form input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    width: 400px;
+    height: 50px;
+}
+button{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: FFFFFF;
+    background-color: AD343E;
+    padding: 10px 170px 10px 170px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}

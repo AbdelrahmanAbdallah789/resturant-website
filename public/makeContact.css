@@ -1,0 +1,273 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-text h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: 2C2F24;
+}
+.contact-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: 495460;
+  font-size: 18px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
+.contact-form1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-name label{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.contact-name input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 90px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    height: 60px;
+    width: 300;
+    padding-left: 20px;
+}
+.contact-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -20px;
+}
+.contact-email label{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.contact-email input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 90px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    height: 60px;
+    width: 300px;
+    padding-left: 20px;
+}
+.contact-form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;   
+}
+.contact-subject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.contact-subject label{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+    margin-left: -10px;
+}
+.contact-subject input{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    width: 420px;
+    border-radius: 90px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    padding-left: 10px;
+    width: 717px;
+    height: 60px;
+    padding-left: 20px;
+}
+.contact-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.contact-message label{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+    margin-left: -10px;
+}
+.contact-message textarea{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: DBDFD0;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 717;
+    height: 100;
+}
+.contact-btn{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: FFFFFF;
+    background-color: AD343E;
+    padding: 10px 170px 10px 170px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 73px;
+}
+.contact-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.contact-phone h1{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.contact-phone h2{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: AD343E;
+}
+.contact-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.contact-hours h1{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.contact-hours h2{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.contact-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.contact-location h1{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: 2C2F24;
+}
+.contact-location h2{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: 2C2F24;
+    width: 100px;
+}
+

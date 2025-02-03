@@ -1,0 +1,467 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container1-about{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.images-about img{
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+    width: 566px;
+    height: 599px;
+}
+.card-about{
+    position: absolute;
+    z-index: 2;
+    margin-left: 250px;
+    margin-top: 320px;
+    background-color: 474747;
+    color: FFFFFF;
+    border-radius: 20px ;
+    width: 425px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.card-about .invitation{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24;
+    text-align: center;
+    text-transform: capitalize;
+}
+.phone-card i{
+    margin-right: 10px;
+}
+.phone-card p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: start;
+    margin-left: 50px;
+}
+.email-card i{
+    margin-right: 10px;
+}
+.email-card p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 50px;
+}
+.location-card i{
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.location-card p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.card-about .invitation{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+.phone-card i{
+    margin-right: 10px;
+}
+.phone-card p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: start;
+    margin-left: 50px;
+}
+.email-card i{
+    margin-right: 10px;
+}
+.email-card p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 50px;
+}
+.location-card i{
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.location-card p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.text-about{
+    width: 420px;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 860px;
+}
+.text-about h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 42px;
+}
+.text-about h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+.text-about p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.container2-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-about{
+    background-image: url(images/BG.jpg);
+    width: 100%;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-about-i i{
+    color: AD343E;
+    font-size: 20;
+    background-color: FFFFFF;
+    padding: 40px;
+    border-radius: 50%;
+}
+.video-about-text{
+    width: 550px;
+}
+.video-about-text h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 55;
+    color: FFFFFF;
+}
+.video-about-fetures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+.feture1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.feture1-icon i{
+    font-size: 50;
+    margin-right: 10px;
+    margin-top: -19;
+}
+.feture1-text h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20;
+}
+.feture1-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11;
+}
+.feture2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.feture2-icon i{
+    font-size: 50;
+    margin-right: 10px;
+    margin-top: -19;
+}
+.feture2-text h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20;
+}
+.feture2-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 10;
+}
+.feture3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.feture3-icon i{
+    font-size: 50;
+    margin-right: 10px;
+    margin-top: -19;
+}
+.feture3-text h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20;
+}
+.feture3-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11;
+}
+.container3-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(219, 223, 208, 0.2);
+    margin-top: 80px;
+}
+.container3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+
+}
+.h1 h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 55;
+    color: 2C2F24;
+    width: 550px;
+}
+.p p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16;
+}
+.text-cards{
+    display: grid;
+    grid-template-rows: 300px  300px ;
+    grid-template-columns:  320px 320px ;
+    gap: 24px;
+}
+.card1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.card2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px; 
+
+}
+.card3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;  
+}
+.card4{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.container3-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.container3-image img{
+    height: 100%;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 135px;
+}
+.text-customer h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 55px;
+}
+.card-customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sophire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 24px;
+}
+.sophire h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.sophire p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.matt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 24px;
+}
+.matt h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.matt p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.andy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 24px;
+}
+.andy h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.andy p{ 
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

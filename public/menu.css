@@ -1,0 +1,141 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-text h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: 2C2F24;
+}
+.menu-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18;
+  color: 495460;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-list ul li{
+    margin: 20px;
+}
+.menu-list ul li p{
+    padding: 20px ;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18;
+    color: 2C2F24;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 30px;
+}
+.menu-list ul li p:hover{
+color: FFFFFF;
+background-color: AD343E;
+cursor: pointer;
+}
+.food-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.food{
+    text-align: center;
+    border-color: DBDFD0;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    row-gap:10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.food a{
+  text-decoration: none;
+}
+.food img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: 2C2F24;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.apps-menu{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    background-color: rgba(249, 249, 247, 1);
+    margin: 120px;
+}
+.apps-text h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 55;
+}
+.apps-text p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    font-size: 16px;
+}
+.apps-images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: 110px;
+}
+.apps-images img{
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
