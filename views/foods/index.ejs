@@ -1,0 +1,59 @@
+<html lang="en">
+<%- include("../partials/header.ejs") %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/menu.css"> 
+</head>  
+<body>
+  <%- include("../partials/nav.ejs") %>
+
+    <div class="menu-text">
+      <h1>Our Menu</h1>
+      <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+     </div>
+     <div class="menu-list">
+      <ul>
+        <li><p>ALL</p></li>
+        <li><p>Breakfast</p></li>
+        <li><p>Main Dishes</p></li>
+        <li><p>Drinks</p></li>
+        <li><p>Desserts</p></li>
+      </ul>
+     </div>
+<div class="food-menu">
+  <div class="food">
+    <% if (foods.length > 0) { %>
+      <% foods.forEach(food => { %>
+      <a href="/menu/<%= food._id %>">
+        <img src="<%= food.image %> "/>
+        <h1 className="price">$<%= food.price %></h1>
+        <h2 className="title"><%= food.title %></h2>
+        <p className="snippet"><%= food.ingredient %></p>
+      </a>  
+      <% }) %>
+    <% } else { %>
+      <p>There are no food to display...</p>
+    <% } %>
+  </div>
+</div>
+<div class="apps-menu">
+  <div class="apps-text">
+    <h1>You can order through apps</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.</p>
+  </div>
+  <div class="apps-images">
+    <img src="/images/Group.jpg">
+    <img src="/images/Vector.jpg">
+    <img src="/images/Vector (1).jpg">
+    <img src="/images/Vector (2).jpg">
+    <img src="/images/Group (1).jpg">
+    <img src="/images/Vector (3).jpg">
+    <img src="/images/Group 39981.jpg">
+    <img src="/images/Group 39980.jpg">
+    <img src="/images/Group 39979.jpg">
+  </div>
+</div>
+  <%- include("../partials/footer.ejs") %>
+</body>
+</html>

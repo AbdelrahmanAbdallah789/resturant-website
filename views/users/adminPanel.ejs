@@ -1,0 +1,22 @@
+<html lang="en">
+<%- include("../partials/header.ejs") %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/adminPanel.css"> 
+</head>  
+<body>
+  <%- include("../partials/nav.ejs") %>
+  <div class="admin-container">
+    <div class="adminText">
+      <h1>Admin Panel</h1>
+    </div>
+    <div class="adminLinks">
+      <a href="/foods/create">addFood</a>
+      <a href="/bookedTables">Reservations</a>
+      <a href="/contact">contacts made</a>
+    </div>
+  </div>
+  <%- include("../partials/footer.ejs") %>
+</body>
+</html>

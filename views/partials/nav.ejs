@@ -1,0 +1,39 @@
+
+  <head>
+    <head>
+      <script src="https://kit.fontawesome.com/97450a4abb.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="/nav.css">
+    </head>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <i class="fa-solid fa-bowl-food"></i>
+        <h1><a href="/">Bistro Bliss</a></h1>
+      </div>
+      <div class="links" id="links">
+        <ul>
+          <li><a class="btn active" href="/">Home</a></li>
+          <li><a class="btn" href="/about">About</a></li>
+          <li><a class="btn" href="/menu">Menu</a></li>
+          <li><a class="btn" href="/pages">Pages</a></li>
+          <li><a class="btn" href="/contacts/makeContact">Contact</a></li>
+          <% if(user){%>
+            <li><a href="/bookedTables">welcom,<%= user.userName %></a></li>
+            <li><a href="/logout">logout</a></li>
+           <% }else{%>
+            <li><a class="btn" href="/login">login</a></li>
+            <li><a class="btn" href="/signup" class="btn">signup</a></li>
+          <% } %>
+        </ul>
+      </div>
+      <div class="book">
+        <a href="/tables/book">bookTable</a>
+      </div>
+  </nav>
+</body>
+
+

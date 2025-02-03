@@ -1,0 +1,58 @@
+<html lang="en">
+<%- include("../partials/header") %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/book.css"> 
+</head>
+<body>
+    <%- include("../partials/nav") %>
+    <div class="book-page">
+        <div class="book-text">
+            <h1>Book A Table</h1>
+            <p>We consider all the drivers of change gives you the components<br/> you need to change to create a truly happens.</p>
+        </div>
+        <div class="bookform">
+        <form action="/table" method="POST">
+        <div class="book-form1">
+        <div class="date">
+        <label for="date">date</label>
+        <input type="date" name="date" id="date" required>
+        </div>
+        <div class="time">
+        <label for="time">time</label>
+        <input type="time" name="time" id="time" required>
+        </div>
+        </div>
+        <div class="book-form2">
+        <div class="name">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" required placeholder="enter your name">
+        </div>
+         <div class="phone-book">
+        <label for="phone">phone</label>
+        <input type="tel" name="phone" id="phone" required placeholder="x-xxx-xxx-xxx">
+        </div>
+        </div>
+        <div class="person">
+        <label for="peopleNumber">number of people</label>
+        <select name="peopleNumber" id="peopleNumber">
+            <option value="1">1 person</option>
+            <option value="2">2 persons</option>
+            <option value="4">3-4 persons</option>
+            <option value="more than 4 persons">more than 4 persons</option>
+          </select>
+        </div>
+        <div class="book-btn">
+            <button class="button-to-book">book a table</button>
+        </div>
+          
+        </div>
+    </form>
+    <div class="background"></div>  
+
+</div>
+    <%- include("../partials/footer.ejs") %>
+    
+</body>
+</html>

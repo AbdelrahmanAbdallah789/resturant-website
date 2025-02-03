@@ -1,0 +1,49 @@
+<html lang="en">
+<%- include("../partials/header") %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/editTable.css"> 
+</head>
+<body>
+    <%- include("../partials/nav") %>
+    <div class="edit-page">
+        <div class="editform">
+       <form action="/updateTable/<%= table.id %>" method="POST">
+        <div class="book-form1">
+        <div class="date">
+        <label for="date">date</label>
+        <input type="date" name="date" id="date" value="<%= table.date %>" required>
+        </div>
+        <div class="time">
+        <label for="time">time</label>
+        <input type="time" name="time" id="time" value="<%= table.time %>">
+        </div>
+        </div>
+        <div class="book-form2">
+        <div class="name">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" value="<%= table.name %>">
+        </div>
+        <div class="phone-book">
+        <label for="phone">phone</label>
+        <input type="tel" name="phone" id="phone" value="<%= table.phone%>" >
+        </div>
+        </div>
+        <div class="person">
+        <label for="peopleNumber">number of people</label>
+        <select name="peopleNumber" id="peopleNumber">
+            <option value="1">1 person</option>
+            <option value="2">2 persons</option>
+            <option value="4">3-4 persons</option>
+            <option value="5">more than 4 persons</option>
+          </select>
+        </div>
+          <button class="updateBtn">update</button>
+    </form>
+</div>
+</div>
+    <%- include("../partials/footer.ejs") %>
+    
+</body>
+</html>

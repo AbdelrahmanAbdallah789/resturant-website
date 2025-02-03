@@ -1,0 +1,27 @@
+<html lang="en">
+    <%- include("../partials/header") %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+    <%- include("../partials/nav") %>
+    <div class="contact">
+    <% if (contacts.length>0) {%>
+    <% contacts.forEach(contact=>{%>
+     <a href="/contact/<%= contact._id %>">
+        <h3> name: <%= contact.name %>  </h3>
+        <h3> phone: <%= contact.email %>  </h3>
+        <h3>subject:<%= contact.subject %></h3>
+        <h3> message: <%= contact.message %> </h3>
+        </a>
+        <% }) %>
+    <% } else { %>
+      <p>There are no new messages </p>
+    <% } %>  
+</div>
+    <%- include("../partials/footer.ejs") %>
+</body>
+</html>

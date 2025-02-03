@@ -1,0 +1,35 @@
+<html lang="en">
+<%- include("../partials/header.ejs") %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/details.css"> 
+</head>  
+<body>
+  <%- include("../partials/nav.ejs") %>
+  <div class="details-content">
+    <img src="/<%= food.image %>" width="100" height="100">
+    <div class="content">
+      <h2><%= food.title %></h2>
+      <p><%= food.price %></p>
+      <p><%= food.ingredient %></p>
+    </div>
+    <a class="delete" data-doc="<%= food._id %>">delete</a>
+    <a class="edit" href="/edit/<%= food._id %>">Update</a>
+  </div>
+
+  <%- include("../partials/footer.ejs") %>
+  <script>
+    const trash = document.querySelector('a.delete')
+    trash.addEventListener('click',(e)=>{
+      const endpoint =`/menu/${trash.dataset.doc}`
+      fetch(endpoint,{
+        method:'DELETE'
+      })
+      .then((response)=>response.json())
+      .then((data)=>window.location.href = data.redirect)
+      .catch((err)=>console.log(err));
+    })
+  </script>
+</body>
+</html>

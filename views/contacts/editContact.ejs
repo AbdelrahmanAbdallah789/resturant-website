@@ -1,0 +1,37 @@
+<html lang="en">
+<%- include("../partials/header") %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/editContact.css"> 
+  </head> 
+<body>
+    <%- include("../partials/nav") %>
+    <div class="edit-page">
+<div class="editform">
+    <form action="/updateContact/<%= contact.id %>" method="POST">
+        <div class="name-contact">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" value="<%= contact.name %>">
+        </div>
+        <div class="email-contact">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" value="<%= contact.email %>">
+        </div>
+        <div class="subject-contact">
+        <label for="subject">subject</label>
+        <input type="text" name="subject" id="subject" value="<%= contact.subject %>">
+        </div>
+        <div class="message-contact">
+        <label for="message">message:</label>
+        <textarea id="message" name="message"><%= contact.message %></textarea>
+        </div>
+        <div class="book-btn">
+        <button class="updateBtn">update</button>
+        </div>
+    </form>
+</div>
+</div>
+    <%- include("../partials/footer.ejs") %>
+</body>
+</html>

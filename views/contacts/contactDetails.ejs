@@ -1,0 +1,36 @@
+<html lang="en">
+<%- include("../partials/header.ejs") %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/contactDetails.css">
+</head>
+<body>
+  <%- include("../partials/nav.ejs") %>
+  <div class="details-content">
+    <h2><%= contact.name %></h2>
+    <div class="content">
+      <p><%= contact.email %></p>
+      <p><%= contact.subject %></p>
+      <p><%= contact.message %> </p>
+    </div>
+    <a class="delete" data-doc="<%= contact._id %>">delete</a>
+    <a class="edit" href="/editContact/<%= contact._id %>">Update</a>
+  </div>
+
+  <%- include("../partials/footer.ejs") %>
+  <script>
+    const trash = document.querySelector('a.delete')
+    trash.addEventListener('click',(e)=>{
+      const endpoint =`/contact/${trash.dataset.doc}`
+      fetch(endpoint,{
+        method:'DELETE'
+      })
+      .then((response)=>response.json())
+      .then((data)=>window.location.href = data.redirect)
+      .catch((err)=>console.log(err));
+    })
+  </script>
+</body>
+</html>

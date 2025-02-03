@@ -1,0 +1,58 @@
+<html lang="en">
+<%- include("../partials/header") %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/makeContact.css">
+</head>
+<body>
+    <%- include("../partials/nav") %>
+    <div class="contact-container">
+        <div class="contact-text">
+            <h1>Contact Us</h1>
+            <p>We consider all the drivers of change gives you the components <br/> you need to change to create a truly happens.</p>
+        </div>
+        <div class="contact-form">
+    <form action="/contact" method="POST">
+        <div class="contact-form1">
+            <div class="contact-name">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" required placeholder="enter your name"> 
+        </div>
+        <div class="contact-email">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required placeholder="enter your email">
+        </div>
+        </div>
+        <div class="contact-form2">
+        <div class="contact-subject">
+        <label for="subject">subject</label>
+        <input type="text" name="subject" id="subject" required placeholder="write a subject">
+        </div>
+        <div class="contact-message">
+        <label for="message">message:</label>
+        <textarea id="message" name="message" required placeholder="write your message" ></textarea>
+        </div>
+        </div>
+        <button class="contact-btn">send</button>
+    </form>
+</div>
+    <div class="contact-info">
+        <div class="contact-phone">
+            <h1>Call Us:</h1>
+            <h2>+1-234-567-8900</h2>
+        </div>
+        <div class="contact-hours">
+            <h1>Hours:</h1>
+            <h2>Mon-Fri: 11am - 8pm </h2>
+            <h2>Sat, Sun: 9am - 10pm</h2>
+        </div>
+        <div class="contact-location">
+            <h1>Our Location:</h1>
+            <h2>123 Bridge Street Nowhere Land, LA 12345 United States</h2>
+        </div>
+   </div>
+</div>
+    <%- include("../partials/footer.ejs") %>
+</body>
+</html>
